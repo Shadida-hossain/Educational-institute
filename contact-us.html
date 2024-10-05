@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Home-BAf Shaheen College</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--favicon-->
+    <link rel="icon" href="assets/img/baf.png">
+    <!--bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--default css-->
+    <link rel="stylesheet" href="assets/css/default.css">
+    <!-- Font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+  </head>
+  <body>
+    <!--navber section start-->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/img/logo.png" alt="" srcset="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active fw-bold  fs-5" aria-current="page" href="index.html" target="_blank">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold  fs-5" aria-current="page" href="about-us.html" target="_blank">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold  fs-5" aria-current="page" href="contact-us.html" target="_blank">Contact us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bold  fs-5" aria-current="page" href="faq.html" target="_blank">Faq</a>
+              </li>
+              
+           </div>
+        </div>
+      </nav>
+    <!--navber section end-->
+
+    <!-- BAnner Section Start -->
+    <section id="banner" class="">
+      <section class="banner-image">
+          <img src="assets/img/banner3.jpg" alt="" class="w-100 d-block">
+      </section>
+   </section>
+  <!-- BAnner Section End -->
+
+    <!-- Demo Contact Section Start-->
+    <section id="contact-form" class="py-5 bg-body-tertiary">
+      <section class="container">
+          <div class="row">
+              <div class="contact-form-title ">
+                  <h1 class="text-uppercase fs-3 pb-5 fw-bold text-center">
+                      Get in Touch with us
+                  </h1>
+              </div>
+              <div class="col-md-6">
+                  <div class="contact-form border border-3 p-5 rounded-5">
+                      <form method="get">
+                          <div class="mb-3">
+                              <label for="fullname" class="form-label">Full Name</label>
+                              <input type="text" class="form-control" id="fullname" placeholder="Mr.X">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="admin@gmail.com" aria-describedby="emailHelp">
+                          </div>
+                          <div class="mb-3">
+                              <label for="phonenumber" class="form-label" >Phone Number</label>
+                              <input type="tel:+8801673621468" class="form-control" placeholder="+8801" id="phonenumber">
+                          </div>
+                          <div class="mb-3">
+                            <textarea name="" placeholder="Write your Message" class="w-100 form-control" id=""></textarea>
+                          </div>
+                          
+                          <button type="submit" class="btn btn-outline-success d-block w-100" onclick="alert('Are you Sure?')">Submit</button>
+                        </form>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="contact-form">
+                      <img src="assets/img/achivement.jpg" alt="" class="w-100 d-block rounded-5">
+                  </div>
+              </div>
+          </div>
+      </section>
+   </section>
+  <!-- Demo Contact Section End-->
+
+  <!-- contact us section start -->
+   <section id="contac-us" class="py-5">
+      <section class="container">
+          <div class="row">
+              <div class="contact-us">
+                  <div class="mb-md-0 mb-4">
+                      <!-- Links -->
+                      <h3 class="text-uppercase fw-bold mb-4 text-center">Contact US</h3>
+                      <ul>
+                        <li>
+                          <i class="fas fa-home me-3"></i> Dhaka Cantonment, Dhaka-1206
+                        </li>
+                        <li>
+                          <i class="fas fa-envelope me-3"></i>
+                        shadidahossain369@gmail.com
+                        </li>
+                        <li>
+                          <i class="fas fa-phone me-3"></i> + 01863684742
+                        </li>
+                        <li>
+                          <i class="fas fa-print me-3"></i> + 01 234 567 89
+                        </li>
+                      </ul>
+                    </div>
+              </div>
+          </div>
+      </section>
+   </section>
+  <!-- contact us section End -->
+
+     <!-- footer section start -->
+   <footer class="bg-dark py-4 text-light">
+    <section class="container">
+        <div class="row">
+            <div class="col-12 col-sm-6">
+                <div class="footer-copyright text-center text-sm-start">
+                    <p class="m-0 lead">&copy; 
+                        <a href="" class="text-decoration-none text-reset">Baf Shaeen College Dhaka.</a> 
+                        All Right Reserved.
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6">
+                <div class="footer-date-time text-center text-sm-end">
+                    <p id="datetime" class="m-0 lead">
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</footer>
+<!-- footer section end -->
+    <!--default js-->
+    <script src="assets/js/script.js"></script>
+    <!--bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+  </body>
+</html>
